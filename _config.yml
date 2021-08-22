@@ -42,13 +42,10 @@ paginate_path: "/page/:num"
 include:
   - _pages
 
-future: false
-
 sass:
   sass_dir: _sass
   style: compressed
 
-timezone: Asia/Tokyo
 
 #-------------------------------
 # Exclude from processing.
