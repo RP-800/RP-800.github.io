@@ -1,2 +1,0 @@
-User-Agent:*
-Sitemap:https://nakamoto800.github.io/sitemap.xml
