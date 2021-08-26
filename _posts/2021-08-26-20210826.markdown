@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "コメント欄設置"
-date:   2021-08-26 17:44:00 +0300
+date:   2021-08-26
 image:  1.png
 tags:   [GitHub]
 ---
