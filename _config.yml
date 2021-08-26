@@ -9,13 +9,13 @@ url: "https://nakamoto800.github.io" # the base hostname & protocol for your sit
 
 #-------------------------------
 # About Section
-author-name:   Nakamoto
+author-name: Nakamoto
 author-avatar: 宇宙猫.png
 
 
 #-------------------------------
 # Contact links
-twitter:   https://twitter.com/Nakamoto_RCJ # Add your Facebook handle
+twitter: https://twitter.com/Nakamoto_RCJ # Add your Facebook handle
 github: https://github.com/nakamoto800
 
 
@@ -34,27 +34,27 @@ google-analytics: UA-205985538-1 # Add your identifier. For example UA-99631805-
 markdown: kramdown
 permalink: ':title/'
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+ - jekyll-paginate
+ - jekyll-sitemap
 
 paginate: 7
 paginate_path: "/page/:num"
 
 include:
-  - _pages
+ - _pages
 
 sass:
-  sass_dir: _sass
-  style: compressed
+ sass_dir: _sass
+ style: compressed
 
 
 #-------------------------------
 # Exclude from processing.
 # exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#  - Gemfile
+#  - Gemfile.lock
+#  - node_modules
+#  - vendor/bundle/
+#  - vendor/cache/
+#  - vendor/gems/
+#  - vendor/ruby/
