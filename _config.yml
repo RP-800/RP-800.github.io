@@ -34,31 +34,30 @@ google-analytics: UA-205985538-2 # Add your identifier. For example UA-99631805-
 markdown: kramdown
 permalink: ':title/'
 plugins:
- - jekyll-paginate
- - jekyll-sitemap
+  - jekyll-paginate
 
-# gems:
-#  - jekyll-sitemap
+gems:
+  - jekyll-sitemap
 
 paginate: 7
 paginate_path: "/page/:num"
 
 include:
- - _pages
+  - _pages
 
 sass:
- sass_dir: _sass
- style: compressed
+  sass_dir: _sass
+  style: compressed
 
 timezone: Asia/Tokyo
 
 #-------------------------------
 # Exclude from processing.
 # exclude:
-#  - Gemfile
-#  - Gemfile.lock
-#  - node_modules
-#  - vendor/bundle/
-#  - vendor/cache/
-#  - vendor/gems/
-#  - vendor/ruby/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
