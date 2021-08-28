@@ -35,9 +35,10 @@ markdown: kramdown
 permalink: ':title/'
 plugins:
   - jekyll-paginate
-
-gems:
   - jekyll-sitemap
+
+#gems:
+#  - jekyll-sitemap
 
 paginate: 7
 paginate_path: "/page/:num"
