@@ -1,6 +1,6 @@
-https://nakamoto800.github.io/about/index.html
-https://nakamoto800.github.io/privacy/index.html
-https://nakamoto800.github.io/updates/index.html
-https://nakamoto800.github.io/20210822/index.html
-https://nakamoto800.github.io/20210825/index.html
-https://nakamoto800.github.io/20210826/index.html
+https://nakamoto800.github.io/about/
+https://nakamoto800.github.io/privacy/
+https://nakamoto800.github.io/updates/
+https://nakamoto800.github.io/20210822/
+https://nakamoto800.github.io/20210825/
+https://nakamoto800.github.io/20210826/
