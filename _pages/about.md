@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: ABOUT
 image: 897b279a-6a44-40f7-9459-d3fe7b226536.jpg
 permalink: /about/
 ---
