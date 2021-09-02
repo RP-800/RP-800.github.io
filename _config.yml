@@ -26,7 +26,7 @@ instafeed: false # To enable the instafeed, use the value true. To turn off use 
 
 #-------------------------------
 # Google Analytics
-google-analytics: UA-205985538-2 # Add your identifier. For example UA-99631805-1.
+google-analytics: # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------
