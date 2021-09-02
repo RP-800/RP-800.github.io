@@ -7,10 +7,9 @@ tags:   [雑記]
 ---
 タイトルの通り、ワクチン接種予約に完全に敗北しました...
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">(検証)<br>ワクチン接種予約が開始されて8時間以上経過してても勝算はあるのか？</p>&mdash; 【2021最新版】Nakamoto (@Nakamoto_RCJ) <a href="https://twitter.com/Nakamoto_RCJ/status/1429714570562576388?ref_src=twsrc%5Etfw">August 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">(検証)<br>ワクチン接種予約が開始されて8時間以上経過してても勝算はあるのか？</p>&mdash; Nakamoto (@Nakamoto_RCJ) <a href="https://twitter.com/Nakamoto_RCJ/status/1429714570562576388?ref_src=twsrc%5Etfw">August 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## なぜ敗北したのか？
-
 理由としては、予約開始が予定からさらに数日遅れたことが挙げられます。当初、16歳以上の人は8月20日から予約できたはずでした。
 
 しかし、予約開始を待っていた私に飛び込んできたのは、「20日の予約は30歳以上に限定します」という知らせ。
