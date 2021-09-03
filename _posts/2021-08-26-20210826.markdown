@@ -2,7 +2,7 @@
 layout: post
 title:  "コメント欄設置"
 date:   2021-08-26
-image:  1.png
+image:  20210826-img.png
 tags:   [GitHub]
 ---
 ついにコメント欄が設置されました。今回使ったのは、[utterances](https://utteranc.es/)です。Disqusとも迷いましたが、導入の手軽さから今回はutterancesを導入することにしました。これで夢が一つ叶いました。
