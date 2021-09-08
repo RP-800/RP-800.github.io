@@ -36,7 +36,6 @@ permalink: ':title/'
 plugins:
   - jekyll-paginate
   - jelyll-sitemap
-  - jekyll-seo-tag
 
 paginate: 7
 paginate_path: "/page/:num"
