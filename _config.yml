@@ -3,7 +3,7 @@
 
 title: Nakamoto's Blog
 description: Nakamotoのブログです。RCJの事とか色々書いていく予定です。 # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nakamoto800.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
@@ -26,7 +26,7 @@ instafeed: false # To enable the instafeed, use the value true. To turn off use 
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+#google-analytics: # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------
@@ -35,6 +35,8 @@ markdown: kramdown
 permalink: ':title/'
 plugins:
   - jekyll-paginate
+  - jelyll-sitemap
+  - jekyll-seo-tag
 
 paginate: 7
 paginate_path: "/page/:num"
