@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pixel 4aを救いたい"
-date:   2021-09-03
+date:   
 image:  20210903-img.JPG
 tags:   [Android]
 ---
