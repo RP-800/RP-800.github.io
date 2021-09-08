@@ -1,5 +1,1 @@
-User-agent: *
-Disallow:
-Allow:
-
 Sitemap: https://nakamoto800.github.io/sitemap.xml
