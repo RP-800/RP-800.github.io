@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Pixel 4aを救いたい"
+date:   2021-09-09
+image:  20210903-img.JPG
+tags:   [GitHub]
+---
+## はじめに
+サイトマップを作ってみたという話です。
+
+## プラグインが信用できない
+今まで、このブログのサイトマップはjekyll-sitemapで作成していました。しかし、いつまで経ってもGoogle Search Consoleに認識されなくて、もうプラグインは信用できなくなりました。解決策をネットで探しても、ほとんどのサイトはJekyllのバージョンが低かったり、そもそも同じ症状で悩んでいる人が少なかったり、私のWebへの知識が乏しすぎたりして、改善策が思い浮かばなかったです。となると、残された手段はただ1つ。**手動で打ってしまおう。**
+
+## 今回参考にしたサイトの紹介
+-[有志によって日本語化されているJekyllについてのサイト](http://jekyllrb-ja.github.io/tutorials/convert-existing-site-to-jekyll/)
+-[ぺけみさお](https://www.xmisao.com/2014/08/25/generate-sitemap-in-jekyll.html)
+
+## 生成物の紹介
+上記のサイトを基に、今回は以下のようなsitemap.xmlを作ってみました。
+
+~~~xml
+---
+layout: null
+search: exclude
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    {% for page in site.pages %}
+    <url>
+        <loc>{{site.url}}{{page.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+
+    {% for post in site.posts %}
+    <url>
+        <loc>{{site.url}}{{post.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+
+</urlset>
+~~~
+
+## 結果
+2021年9月9日現在、Google Search Consoleによる読み込み待ち。
+
+## まとめ
+結果が出次第、まとめます。
