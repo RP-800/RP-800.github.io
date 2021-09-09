@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Pixel 4aを救いたい"
+title:  "このブログにSEO対策は必要ない説、あると思います"
 date:   2021-09-09
-image:  20210903-img.JPG
+image:  
 tags:   [GitHub]
 ---
 ## はじめに
