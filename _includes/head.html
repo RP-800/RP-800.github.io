@@ -18,6 +18,29 @@
   <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 
 
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@Nakamoto_RCJ" />
+
+  {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}" />
+  {% else %}
+    <meta name="twitter:title" content="{{ site.title }}" />
+  {% endif %}
+
+  {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}" />
+  {% else %}
+    <meta name="twitter:description" content="{{ site.description }}" />
+  {% endif %}
+
+  {% if page.image %}
+    <meta name="twitter:image" content="{{ site.url }}/img/{{ page.image }}" />
+  {% else %}
+    <meta name="twitter:image" content="{{ site.url }}/img/logo.jpg?" />
+  {% endif %}
+
+  <meta name="twitter:url" content="{{ site.url }}">
+
 
   <style>
   {% capture include_to_scssify %}
