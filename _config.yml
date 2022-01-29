@@ -1,22 +1,22 @@
 #-------------------------------
 # General Site Settings
 
-title: Nakamoto's Blog
-description: Nakamotoのブログです。RCJの事とか色々書いていく予定です。 # this means to ignore newlines until "baseurl:"
+title: R.P.'s Blog
+description: R.P.のブログです。RCJの事とか色々書いていく予定です。 # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nakamoto800.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rp-800.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
 # About Section
-author-name: 小熊猫 / Nakamoto
+author-name: R.P.
 author-avatar: icon.jpg
 
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/Nakamoto_RCJ # Add your Facebook handle
-github: https://github.com/nakamoto800
+twitter: https://twitter.com/red_panda_RCJ # Add your Facebook handle
+github: https://github.com/RP-800
 
 
 #-------------------------------
