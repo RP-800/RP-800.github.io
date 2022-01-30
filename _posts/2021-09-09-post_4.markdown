@@ -25,7 +25,7 @@ tags:   [GitHub]
 
 上記のサイトを基に、今回は以下のようなsitemap.xmlを作ってみました。
 
-![画像]({{site.baseurl}}/img/2021-09-09/2021-09-09-img.png)
+![画像](https://rp-800.github.io/img/2021-09-09/2021-09-09-img.png)
 
 ## 結果
 
