@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: 897b279a-6a44-40f7-9459-d3fe7b226536.jpg
+image: 2022-02-15.jpg
 permalink: /about/
 ---
 ## 自己紹介
@@ -35,7 +35,7 @@ permalink: /about/
 
 - ブロック大会優勝
 - 全国大会3位&優秀プレゼンテーション賞
-- RCAP2021　競技２位　総合優勝
+- RCAP2021 競技２位 総合優勝
 
 ### 2022年
 

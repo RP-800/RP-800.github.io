@@ -2,7 +2,7 @@
 layout: post
 title:  "このブログにSEO対策は必要ない説、あると思います"
 date:   2021-09-09
-image:  
+image:  2022-02-15.jpg
 tags:   [GitHub]
 ---
 ## はじめに
