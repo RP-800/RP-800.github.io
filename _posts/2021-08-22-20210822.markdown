@@ -1,0 +1,9 @@
+---
+layout: post
+title: "自己紹介"
+img: main.jpg # Add image post (optional)
+date: 2021-08-22
+description:  # Add post description (optional)
+tag: [自己紹介]
+---
+この度、BloggerからGitHub Pagesに完全移行することを決意しました。改めまして、R.P.と申します。JekyllとMarkdownは不慣れなのですが、慣れてきたらコメント欄とか色々つけていって、徐々に慣れていきたいなと思っています。よろしくおねがいします。
