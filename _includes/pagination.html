@@ -1,35 +1,27 @@
+<div class="row">
+  <div class="col col-12">
+    <div class="pagination">
+      <ul class="pagination-list list-reset">
+        {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
+        <li class="previous-posts">
+          <a class="previous-link" href="{{ site.baseurl }}/">
+            <i class="ion ion-ios-arrow-back"></i>過去の投稿</a>
+        </li>
+        {% else %}
+        <li class="newer-posts">
+          <a class="newer-link" href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/">
+            <i class="ion ion-ios-arrow-back"></i>新しい投稿</a>
+        </li>
+        {% endif %} {% endif %}
 
-<nav class="pagination">
-  {% if paginator.previous_page %}
-
-    {% if paginator.previous_page == 1 %}
-      <a href="/">Prev</a>
-    {% else %}
-      <a href="/page{{ paginator.previous_page }}">Prev</a>
-    {% endif %}
-
-  {% else %}
-    <span class="disabled">Prev</span>
-  {% endif %}
-
-  {% if paginator.page == 1 %}
-    <span class="active">1</span>
-  {% else %}
-    <a href="/">1</a>
-  {% endif %}
-
-  {% for count in (2..paginator.total_pages) %}
-
-    {% if count == paginator.page %}
-      <span class="active">{{ count }}</span>
-    {% else %}
-      <a href="/page{{ count }}">{{ count }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}">Next</a>
-  {% else %}
-    <span class="disabled">Next</span>
-  {% endif %}
-</nav> <!-- End Section Pagination -->
+        {% if paginator.next_page %}
+        <li class="older-posts">
+          <a class="older-link" href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">過去の投稿
+            <i class="ion ion-ios-arrow-forward"></i>
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div> <!-- /.pagination -->
+  </div>
+</div>

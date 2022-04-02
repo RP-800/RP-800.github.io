@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "新型コロナウイルスに感染した話"
-img: main.jpg # Add image post (optional)
-date: 2022-02-15
-description:  # Add post description (optional)
-tag: [GitHub]
+title:  新型コロナウイルスに感染した
+date:   2022-02-15
+image:  main.jpg
+tags:   [雑記]
 ---
 ## はじめに
 

@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 {% include head.html %}
+
 <body>
 
-  {{ content }}
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  {% include loader.html %}
+  {% include header.html %}
 
-  {% include arrow_top.html %}
+      {{ content }}
+
+  {% include footer.html %}
   {% include javascripts.html %}
-  {% include analytics.html %}
+
 </body>
+
 </html>

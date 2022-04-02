@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "このブログにSEO対策は必要ない説"
-img: main.jpg # Add image post (optional)
-date: 2021-09-09
-description:  # Add post description (optional)
-tag: [GitHub]
+title:  "このブログにSEO対策は必要ない説、あると思います"
+date:   2021-09-09
+image:  main.jpg
+tags:   [GitHub]
 ---
 ## はじめに
 
@@ -26,7 +25,7 @@ tag: [GitHub]
 
 上記のサイトを基に、今回は以下のようなsitemap.xmlを作ってみました。
 
-![画像]({{site.baseurl}}/assets/img/2021-09-09/img.png)
+![画像]({{site.baseurl}}/img/2021-09-09/img.png)
 
 ## 結果
 

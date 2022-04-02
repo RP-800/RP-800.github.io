@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "ahamoのeSIMを試す"
-img: 2021-11-09.png # Add image post (optional)
-date: 2021-11-09
-description:  # Add post description (optional)
-tag: [Android]
+title:  "ahamoのeSIMを試す"
+date:   2021-11-09
+image:  2021-11-09.png
+tags:   [Android]
 ---
 ## はじめに
 
