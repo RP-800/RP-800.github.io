@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ブログテーマ更新"
-img: logo.jpg # Add image post (optional)
+img: main.jpg # Add image post (optional)
 date: 2022-04-02
 description:  # Add post description (optional)
 tag: [GitHub]

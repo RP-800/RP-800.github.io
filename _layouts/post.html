@@ -35,38 +35,23 @@ layout: default
         </div>
       </footer>
     </div>
-  </article> <!-- End Section Post -->
 
-  <section class="author cf">
-    <div class="post_wrapper">
-      <div class="author_image">
-        <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{ site.author-pic }}{% endif %}" alt="Author face">
-      </div>
-      <div class="author_info">
-        <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}Dwayne Newman{% endif %}</h2>
-        <p class="author_subtitle">{% if site.about-author %}{{site.about-author}}{% else %}La croix godard blue bottle, vape iceland fingerstache cronut single-origin coffee lyft snackwave normcore small batch.{% endif %}</p>
-        <div class="author_social">
-          {% if site.email %}
-          <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:{{site.email}}">{{site.email}}</a></span>
-          {% else %}
-          <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:dwayne@example.com">dwayne@example.com</a></span>
-          {% endif %}
-          
-          {% if site.phone %}
-          <span class="author_phone"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:{{site.phone}}">{{site.phone}}</a></span>
-          {% else %}
-          <span class="author_phone"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+496-169-65-57">(496)-169-6557</a></span>
-          {% endif %}
+    <div class="comments">
 
-          {% if site.website %}
-          <span class="author_website"><i class="fa fa-link" aria-hidden="true"></i> <a href="{{site.website}}" target="_blank">{{site.website}}</a></span>
-          {% else %}
-          <span class="author_website"><i class="fa fa-link" aria-hidden="true"></i> <a href="#" target="_blank">https://dwayne.example.com</a></span>
-          {% endif %}            
-        </div>
-      </div>
+      <h3 class="title">
+        Comments
+      </h3>
+      
+      <script src="https://utteranc.es/client.js"
+      repo="RP-800/rp-800.github.io"
+      issue-term="pathname"
+      theme="github-dark"
+      crossorigin="anonymous"
+      async>
+      </script>
+      
     </div>
-  </section> <!-- End Section Author -->
+  </article> <!-- End Section Post -->
 
   <section class="recent_box">
     <div class="post_wrapper">
@@ -85,24 +70,7 @@ layout: default
     </div>
   </section> <!-- End Section Recent Box -->
   
-  {% include disqus.html %}
-  
 </main> <!-- End Section Post Content -->
 
-<div class="comments">
-
-  <h3 class="title">
-    Comments
-  </h3>
-  
-  <script src="https://utteranc.es/client.js"
-  repo="RP-800/rp-800.github.io"
-  issue-term="pathname"
-  theme="github-dark"
-  crossorigin="anonymous"
-  async>
-  </script>
-  
-</div>
 
 {% include footer.html %}
