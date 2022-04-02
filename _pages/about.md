@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: 2022-02-15.jpg
+image: main.jpg
 permalink: /about/
 ---
 ## 自己紹介
