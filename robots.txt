@@ -1,3 +1,0 @@
-User-Agent: *
-
-Sitemap: https://rp-800.github.io/sitemap.xml

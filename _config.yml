@@ -1,62 +1,56 @@
-#-------------------------------
-# General Site Settings
-
+logo: R.P.'s Blog # add logo name
 title: R.P.'s Blog
-description: R.P.のブログです。RCJの事とか色々書いていく予定です。 # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "baseurl:"
+  R.P.のブログです。色々書いていきます(とか言ってるけど多分サボりがち)。
+permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rp-800.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Banner settings
+video: mountains.mp4 # add banner video. Add your video file to the folder video
+banner-title: # add banner title
+banner-desc: # add banner description
 
-#-------------------------------
-# About Section
-author-name: R.P.
-author-avatar: icon.jpg
+# Author settings
+author-pic: face.jpg # your photo
+author-name: R.P. # your name
+about-author: # about author
+email:  # your email
+phone:  # your pnone number
+website:  # you website
 
+# Social link
+google_url:    # add url link
+twitter_url: https://twitter.com/red_panda_RCJ  # add url link
+instagram_url: # add url link
+pinterest_url: # add url link
+dribbble_url:  # add url link
+facebook_url:  # add url link
 
-#-------------------------------
-# Contact links
-twitter: https://twitter.com/red_panda_RCJ # Add your Facebook handle
-github: https://github.com/RP-800
+# Disqus
+discus_identifier:  # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
 
+# Newsletter
+mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
-#-------------------------------
-# Instagram Feed
-instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
+# Tracker
+analytics:
 
+# Paginate
+paginate: 12
+paginate_path: /page:num/
 
-#-------------------------------
-# Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
-
-
-#-------------------------------
 # Build settings
 markdown: kramdown
-permalink: ':title/'
-plugins:
+plugins_dir:
   - jekyll-paginate
-  - jekyll-feed
   - jekyll-sitemap
 
-paginate: 7
-paginate_path: "/page/:num"
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-include:
-  - _pages
-
-sass:
-  sass_dir: _sass
-  style: compressed
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
 timezone: Asia/Tokyo
-
-#-------------------------------
-# Exclude from processing.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

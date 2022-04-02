@@ -1,0 +1,13 @@
+---
+layout: post
+title: "ブログテーマ更新"
+img: logo.jpg # Add image post (optional)
+date: 2022-04-02
+description:  # Add post description (optional)
+tag: [GitHub]
+---
+前のテーマが読み込みごとにロード演出される仕様だったのですが、飽きてきたので新年度ということでテーマを変えてみました。
+
+バーナーに動画を貼れるのでそのうちなんか良さげな動画にでも切り替えようかなぁとか思ってみたり見なかったりって感じです。
+
+多分前のテーマより軽くなっているはず...
